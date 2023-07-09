@@ -15,7 +15,6 @@ section{
     border: 1px solid black;
     font-size: 12px;
     height: auto;
-    margin: auto;
 }
 .section-title{
 position: absolute;
@@ -45,13 +44,17 @@ section div:nth-child(2){
         float: left;
     }
 .section1{
-    width: 50%;
+    width: 48%;
+    margin: 1% 1% 1% 1%;
 }
 .section2{
-    width: 50%;
+    width: 48%;
+    margin: 1% 1% 1% 1%;
 }
 .section3{
-    width: 100%;
+    width: 98%;
+    margin: 1% 1% 1% 1%;
+
 }
 }
 @media (max-width:767px){
@@ -60,12 +63,15 @@ section div:nth-child(2){
     }
     .section1{
         width: 100%;
+        margin: 10px;
     }
     .section2{
         width: 100%;
+        margin: 10px;
     }
     .section3{
         width: 100%;
+        margin: 10px;
     }
 }
 @media (min-width:992px){
@@ -73,12 +79,15 @@ section div:nth-child(2){
         float: left;
     }
     .section1{
-        width: 33.33%;
+        width: 30%;
+        margin: 1% 1% 1% 1%;
     }
     .section2{
-        width: 33.33%;
+        width: 30%;
+        margin: 1% 1% 1% 1%;
     }
     .section3{
-        width: 33.33%;
+        width: 30%;
+        margin: 1% 1% 1% 1%;
     }
 }
